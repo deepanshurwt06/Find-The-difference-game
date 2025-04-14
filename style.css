@@ -1,0 +1,109 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+h1{
+  text-align: center;
+  padding: 5px 0;
+}
+
+p{
+  text-align: center;
+  padding: 5px 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 600px;
+  height: auto;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid red;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.click-circle {
+  position: absolute;
+  width: 0.5cm;
+  height: 0.5cm;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.completion-message {
+  position: fixed; 
+  top: 400px;    
+  left: 50%;
+  transform: translateX(-50%);  
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.8); 
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 5;
+  text-align: center;
+}
+
+
+#reset-button{
+   margin-top: 20px;
+   padding: 10px 20px;
+    font-weight: bold;
+    background-color: green;
+   color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+}
+ 
+@media screen and (max-width: 400.98px) {
+  .game-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+
+  
+  .image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .marker, .click-circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  .completion-message {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

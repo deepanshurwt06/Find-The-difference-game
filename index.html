@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Spot the Difference</h1>
+  <p>Click on the right image to find the differences!</p> 
+  <div class="game-container">
+    <div class="image-wrapper" id="image1-wrapper">
+      <img src="assets/image1.jpg" id="image1" alt="Image 1">
+    </div>
+    <div class="image-wrapper" id="image2-wrapper">
+      <img src="assets/image2.jpg" id="image2" alt="Image 2">
+      <div id="rectangles-container"></div>
+    </div>
+  </div>
+  <p id="timer">Time: 0s</p>
+  <p id="found-count">Found: 0</p>
+  <button id="reset-button" >Reset Game</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
