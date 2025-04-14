@@ -3,7 +3,7 @@
 This is a simple web-based "Find the Differences" game built using HTML, CSS, and JavaScript. Players need to find and click the differences between two images before the timer runs out!
 
 ## Live Demo
-You can play the game live on [Vercel](https://your-vercel-link-here).
+You can play the game live on [Vercel](https://find-the-difference-game-five.vercel.app/).
 
 ## GitHub Repository
 The source code for this game can be found on GitHub: [Find the Differences Game GitHub](https://github.com/deepanshurwt06/Find-The-difference-game).
