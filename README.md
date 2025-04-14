@@ -6,12 +6,13 @@ This is a simple web-based "Find the Differences" game built using HTML, CSS, an
 You can play the game live on [Vercel](https://your-vercel-link-here).
 
 ## GitHub Repository
-The source code for this game can be found on GitHub: [Find the Differences Game GitHub](https://github.com/yourusername/find-the-differences-game).
+The source code for this game can be found on GitHub: [Find the Differences Game GitHub](https://github.com/deepanshurwt06/Find-The-difference-game).
 
+---------
 ## Instructions to Play the Game
 
 1. **Start the Game:**
-   - Open the `index.html` file in a web browser to launch the game.
+   - Open the `index.html` file in a web browser to launch the game or directly play game on versel by clicking the Live Demo link.
 
 2. **Gameplay:**
    - You will be presented with two images side by side.
@@ -29,11 +30,15 @@ The source code for this game can be found on GitHub: [Find the Differences Game
 5. **Reset the Game:**
    - Click the "Reset Game" button to restart the level and reset the timer.
 
+--------
+
 ## Technologies Used
 - **HTML** for structuring the game.
 - **CSS** for styling the images and game layout.
 - **JavaScript** for game functionality (click handling, timer, etc.).
 - **JSON** for storing the configuration (image paths and differences).
+
+  --------
 
 ## How the Game Uses the JSON File
 The game loads the differences and images dynamically from the `config.json` file. The JSON file contains:
@@ -41,6 +46,17 @@ The game loads the differences and images dynamically from the `config.json` fil
 - The coordinates of the differences between the two images.
 The game reads these values to highlight the differences and handle player clicks.
 
+example of JSON file :
+{
+  "image1": "assets/image1.jpg",
+  "image2": "assets/image2.jpg",
+  "differences": [
+    { "x": 70, "y": 149, "width": 122, "height": 144 },
+    { "x": 768, "y": 149, "width": 65, "height": 66 },
+    ...
+  ]
+}
+ -----
 ## To Contribute
 1. Fork the repository.
 2. Clone your fork to your local machine.
