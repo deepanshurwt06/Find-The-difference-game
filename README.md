@@ -57,12 +57,7 @@ example of JSON file :
   ]
 }
  -----
-## To Contribute
-1. Fork the repository.
-2. Clone your fork to your local machine.
-3. Make your changes and improvements.
-4. Create a pull request to submit your contributions.
 
-## License
-This project is open-source and available under the MIT License.
+
+
 
